@@ -1,0 +1,1 @@
+# Xcode-SingleWindowApp-SwiftUI-macOS-ProjectTemplate

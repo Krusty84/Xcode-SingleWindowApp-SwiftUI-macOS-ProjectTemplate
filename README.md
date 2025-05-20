@@ -1,10 +1,8 @@
 # Xcode-MenuBarApp-SwiftUI-macOS-ProjectTemplate
 
-A small template for a project to create macOS applications for placement in the MenuBar (a la System Tray for those coming from the Windows world).
+A small template for a project to create single window macOS applications.
 
 Template includes: Project structure, and small snippets: checking internet access, converting time formats, a mechanism for saving settings, autorun, etc.
-
-<img width="819" alt="image" src="https://github.com/user-attachments/assets/0f0444b1-dcd5-4228-bb90-885c32de16e4" />
 
 Project OOTB content
 
@@ -12,12 +10,12 @@ Project OOTB content
 
 ## Installation
 
-1. Copy the template folder - **MenuBarApp.xctemplate** to:
+1. Copy the template folder - **SingleWindowApp.xctemplate** to:
    ```
    ~/Library/Developer/Xcode/Templates/YourCategoryDoYouWantAnyName/
    ```
 2. Restart Xcode.
-3. In Xcode, choose **File → New → File…**, then select **MenuBarApp** under **macOS** and under **YourCategoryDoYouWantAnyName** section
+3. In Xcode, choose **File → New → File…**, then select **SingleWindowApp** under **macOS** and under **YourCategoryDoYouWantAnyName** section
 
 ## Setting up the created project 
 
@@ -27,6 +25,5 @@ https://github.com/sindresorhus/LaunchAtLogin-Modern
 
 **LoggerHelper** if you need it: https://github.com/Krusty84/LoggerHelper
 
-2. Set **Yes** for "**Application is agent (UIElement) aka LSUIElement**" in *Project/Targets/Info/Custom macOS Application Target Properties*
-3. Check **Sandbox Mode** (it should be enabled)
+2. Check **Sandbox Mode** (it should be enabled)
 

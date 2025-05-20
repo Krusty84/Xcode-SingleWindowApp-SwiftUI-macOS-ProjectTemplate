@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:SettingsManager.swift">
+   </FileRef>
+   <FileRef
+      location = "group:___PROJECTNAME___.entitlements">
+   </FileRef>
+   <Group
+      location = "group:API"
+      name = "API">
+      <FileRef
+         location = "group:APIConfig.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:AppIconConfigurator.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppState.swift">
+   </FileRef>
+   <FileRef
+      location = "group:EntryAppPoint.swift">
+   </FileRef>
+   <Group
+      location = "group:Helpers"
+      name = "Helpers">
+      <FileRef
+         location = "group:GeneralHelpers.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:MainWindow.swift">
+   </FileRef>
+   <FileRef
+      location = "group:PostActionsMustRead.txt">
+   </FileRef>
+   <Group
+      location = "group:Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:Assets.xcassets">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:TemplateIcon.png">
+   </FileRef>
+   <FileRef
+      location = "group:TemplateInfo.plist">
+   </FileRef>
+   <Group
+      location = "group:Views"
+      name = "Views">
+      <Group
+         location = "group:Settings"
+         name = "Settings">
+         <FileRef
+            location = "group:SettingsTabViewModel.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SettingsTabView.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:TabOne"
+         name = "TabOne">
+         <FileRef
+            location = "group:TabOneView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:TabOneViewModel.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:About.swift">
+      </FileRef>
+   </Group>
+</Workspace>
